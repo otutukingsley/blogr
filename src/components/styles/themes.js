@@ -292,6 +292,12 @@ export const HeaderSection = styled.header`
     height: 43.75rem;
   }
 
+
+  @media (max-width: 290px){
+    border-bottom-left-radius: none;
+  }
+
+  
   .button-container{
     display: flex;
     flex-direction: row;
