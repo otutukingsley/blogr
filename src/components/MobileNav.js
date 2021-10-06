@@ -1,12 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
-import styled from 'styled-components'
-
-const Arrow = styled.svg`
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%) !important;
-  margin-left: 15px;
-`
+import React from 'react'
 
 const MobileNav = () => {
   return (
