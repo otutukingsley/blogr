@@ -41,9 +41,21 @@ export const GlobalStyles = createGlobalStyle`
 
 
         @media(max-width:1127px){
-            padding: 15px;
-            border-radius:25px;
-            font-size:15px;
+            padding: 0.938rem;
+            border-radius:1.563rem;
+            font-size:0.938rem;
+        }
+
+        @media(max-width: 400px){
+          padding: 0.78rem;
+        }
+
+        @media(max-width:350px){
+          font-size:0.738rem;
+        }
+
+        @media(max-width:300px){
+          font-size:0.55rem;
         }
     }
 
@@ -167,6 +179,15 @@ export const GlobalStyles = createGlobalStyle`
     text-align: center;
     z-index: 3;
     box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+
+
+    @media (max-width: 400px) {
+      width: 18rem;
+    }
+
+    @media (max-width: 300px) {
+      width: 15.8rem;
+    }
 
     hr{
         border: 1px solid gray;
@@ -315,6 +336,10 @@ export const HeaderContainer = styled.div`
             font-weight: 300;
             margin-bottom: 1.563rem;
         }
+
+        @media screen and (max-width: 350px){
+          font-size: 1.5rem;
+        }
     }
 
     .paragraph{
@@ -326,7 +351,8 @@ export const HeaderContainer = styled.div`
          font-size: 0.938rem;
          text-align: center;
         }
-    } 
+    }
+  }
 `
 
 export const DesignContainer = styled.div`
@@ -633,6 +659,10 @@ export const ArT = styled.section`
 
     .art-img-container{
         margin-top:-12rem;
+
+        @media screen and (max-width:300px){
+          margin-top:-8.9rem;
+        }
     }
     .art-img-container img{
         width:270px;
@@ -642,6 +672,5 @@ export const ArT = styled.section`
   @media (max-width: 750px) {
     height: 600px;
   }
-
 }
 `
