@@ -1,12 +1,12 @@
 import React from 'react'
-import { PowerFul } from './styles/themes'
+import { PowerFul, PowerfulContainer } from './styles/themes'
 
 const Powerful = () => {
   return (
-    <section className="design">
-      <div className="powerful-container">
+    <PowerfulContainer>
+      <div className="designed-container">
         <PowerFul />
-        <div className="powerful-content">
+        <div className="designed-content">
           <div className="editor">
             <h1 className="editor-header">Free, Open and Simple</h1>
             <p className="content">
@@ -28,7 +28,7 @@ const Powerful = () => {
           </div>
         </div>
       </div>
-    </section>
+    </PowerfulContainer>
   )
 }
 

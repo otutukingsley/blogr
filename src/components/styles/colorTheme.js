@@ -11,5 +11,6 @@ export const theme = {
     lightRedBg: ' hsl(353, 100%, 62%)',
     veryDarkGreyBlue: 'hsl(237, 17%, 21%)',
     veryDarkDestBlue: 'hsl(237, 23%, 32%)',
+    mobileDropdownBg: "hsl(240,6.7%,94.1%)"
   },
 }

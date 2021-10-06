@@ -1,11 +1,11 @@
-import React, { Fragment } from 'react'
-import { Illustration } from './styles/themes'
+import React from 'react'
+import { TryIllustrator, DesignContainer} from './styles/themes'
 
 const Designed = () => {
   return (
-    <section className="design">
+    <DesignContainer>
+      <h1 className="designed-header">Designed for the future</h1>
       <div className="designed-container">
-        <h1 className="designed-header">Designed for the future</h1>
         <div className="designed-content">
           <div className="editor">
             <h1 className="editor-header">Introducing an extensible editor</h1>
@@ -13,9 +13,9 @@ const Designed = () => {
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports
               managementof mutiple blogs and allows easy manipulation of embeds
-              such as images, videos and Markdown. Extensibility with plugins and
-              themes provide easy ways to add functionality or change the looks
-              of a blog.
+              such as images, videos and Markdown. Extensibility with plugins
+              and themes provide easy ways to add functionality or change the
+              looks of a blog.
             </p>
           </div>
           <div className="robust">
@@ -28,9 +28,9 @@ const Designed = () => {
             </p>
           </div>
         </div>
-        <Illustration/>
+        <TryIllustrator />
       </div>
-    </section>
+    </DesignContainer>
   )
 }
 

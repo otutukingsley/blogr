@@ -1,9 +1,11 @@
 import React from 'react'
+import { ArT } from './styles/themes'
+
 
 const Art = () => {
   return (
-    <div className="art-section">
-      <div className="img-container">
+    <ArT>
+      <div className="art-img-container">
         <img src="/images/illustration-phones.svg" alt="" />
       </div>
       <div className="infrastructure">
@@ -15,7 +17,7 @@ const Art = () => {
           competitive.
         </p>
       </div>
-    </div>
+    </ArT>
   )
 }
 

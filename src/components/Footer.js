@@ -1,6 +1,5 @@
 import React from 'react'
-import { FooterContainer, FooTer } from './styles/themes'
-
+import { FooterContainer, FooTer, FooterContent } from './styles/themes'
 const Footer = () => {
   return (
     <FooTer>
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="footer-logo">
           <img src="/images/logo.svg" alt="" />
         </div>
-        <div className="footer-content">
+        <FooterContent>
           <div className="footer-links">
             <h3>Company</h3>
             <ul>
@@ -60,10 +59,10 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </FooterContent>
       </FooterContainer>
     </FooTer>
   )
 }
 
-export default Footer
+export default Footer;
