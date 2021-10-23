@@ -23,6 +23,10 @@ function App() {
 
   useEffect(() => {
     window.addEventListener('resize', handleWidth)
+
+    return () => {
+      window.removeEventListener('resize', handleWidth);
+    }
   }, [])
 
   return (

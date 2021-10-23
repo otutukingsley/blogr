@@ -68,7 +68,7 @@ export const GlobalStyles = createGlobalStyle`
     &:hover{
         background-color: ${({ theme }) => theme.colors.veryLightRed};
        color: ${({ theme }) => theme.colors.whiteText};
-       }
+    }
  }
 
 
